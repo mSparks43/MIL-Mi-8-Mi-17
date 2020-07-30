@@ -1,0 +1,13 @@
+A
+870 version
+s_left 	s_right t_bottom t_top
+ 0	 7	0	196	// comment: IAS 1000
+ 7	14	0	196	// comment: IAS 100
+14	21	0	196	// comment: IAS 10
+21	26	3	115	// comment: IAS 1
+10				// comment: knots per tickmark (small)
+ 0				// comment: knots per tickmark (big)
+20				// comment: knots per label
+ 1.0			// comment: pixels per knot
+0 29  1	 51		// comment: lower visible area HUD speed tape, x left and right, then y bottom and top, of the area for the sliding tape BELOW the digital indication
+0 29 75	125		// comment: upper visible area HUD speed tape, x left and right, then y bottom and top, of the area for the sliding tape ABOVE the digital indication

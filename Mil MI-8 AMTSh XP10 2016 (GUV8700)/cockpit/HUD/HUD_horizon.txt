@@ -1,0 +1,17 @@
+A
+750 version
+x   y  
+0   54	// comment: roll and sideslip pointer offset center of rotation
+0  -10	// comment: extra clipping area for the HUD beyond the size of 'HUD_horizon-3.png'
+
+here is an explanation on the numbers above:
+
+the 'HUD_horizon-3.png' defines the area that is visible in the HUD... data outside of that area is clipped.
+of course, you can customize that image however you like.
+but, since that image is always CENTERED, you may want extra clipping area on the left, right, top or bottom,
+if your HUD has a wider field of view in that area.
+
+So, look at the two digits (0, -10) above:
+
+the first digit is the extra left or right clipping (negative to give more area on the left, positive to give more area on right)
+the second digit is the up or down clipping (negative to give more area on the bottom, positive to give more area on top)
